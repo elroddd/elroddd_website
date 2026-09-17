@@ -18,6 +18,4 @@ Links:
 [Tiktok](https://tiktok.com/@elrodddoxy),
 [Destockd](https://destockd.com)
 
-Test [Link](/sources_punish/)
-
 <img src="/assets/pfp.png" alt="Photo of Elroddd" style="max-width: 100%; border-radius: 8px;">
