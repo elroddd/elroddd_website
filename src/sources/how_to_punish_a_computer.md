@@ -5,7 +5,7 @@ layout: base.njk
 
 # How to Punish a Computer
 
-<img src="/assets/thumbnails/punish19.jpg" alt="How to Punish a Computer Thumbnail" style="max-width: 100%; border-radius: 8px;">
+<img src="/assets/thumbnails/punish19.jpg" alt="How to Punish a Computer Thumbnail" style="max-width: 100%;">
 
 ### Sources
 
