@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} · Elroddd</title>
+    <link rel="icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="{% if page.url == '/' %}home{% endif %}">
+    {{ content | safe }}
+    <script>
+        document.querySelectorAll('a[href]').forEach(function (link) {
+            try {
+                var url = new URL(link.href, window.location.href);
+                if (url.origin !== window.location.origin) {
+                    link.target = '_blank';
+                    link.rel = 'noopener';
+                }
+            } catch (e) {}
+        });
+    </script>
+</body>
+</html>

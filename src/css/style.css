@@ -1,0 +1,30 @@
+body {
+    color: #000;
+    background: #fff;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+/* Homepage only (see the {% if page.url == '/' %} check in base.njk) */
+/* Sizes below use clamp(min, preferred, max) with vw units so everything
+   scales with the browser's viewport width instead of staying pixel-fixed.
+   The "preferred" value is tuned so a 1920px-wide window matches the old
+   fixed sizes (1.25rem / 3rem / 700px), and it scales up from there. */
+
+body.home {
+    max-width: clamp(700px, 36.5vw, 1400px);
+    font-size: clamp(1.1rem, 1.05vw, 2.5rem);
+}
+
+body.home h1 {
+    font-size: clamp(2rem, 2.5vw, 6rem);
+}
+
+body.home img {
+    display: block;
+    max-width: 100%;
+    margin: 1.5rem auto 0;
+}
