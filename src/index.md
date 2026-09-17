@@ -3,10 +3,11 @@ title: Home
 layout: base.njk
 ---
 
-## Welcome to Elroddd.com
-I make videos. You can watch them [here.](https://youtube.com/@elroddd)
-If you like them, you can give me money [here.](https://patreon.com/elroddd)
+# Welcome to Elroddd.com
+I make videos. You can watch them [here.](https://youtube.com/@elroddd)\
+If you like them, you can give me money [here.](https://patreon.com/elroddd)\
 To talk to me, use this [email.](mailto:biz@elroddd.com)
+
 Thank you for watching.
 
 Links:
@@ -16,5 +17,7 @@ Links:
 [Twitter](https://x.com/splithead_),
 [Tiktok](https://tiktok.com/@elrodddoxy),
 [Destockd](https://destockd.com)
+
+Test [Link](/sources_punish/)
 
 <img src="/assets/pfp.png" alt="Photo of Elroddd" style="max-width: 100%; border-radius: 8px;">
